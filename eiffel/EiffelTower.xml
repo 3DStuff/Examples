@@ -1,0 +1,16 @@
+<project>
+    <voxel_size cube_size="0.2"></voxel_size>
+    
+    <target
+        dir_out="Result"
+    >
+    </target>
+    
+    <file 
+        file_in="EiffelTower.stl"
+        file_out="hex_eiffel.stl"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+</project>

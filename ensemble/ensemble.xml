@@ -1,0 +1,59 @@
+<project>
+    <voxel_size cube_size="0.2"></voxel_size>
+    
+    <target
+        dir_out="Result"
+    >
+    </target>
+    
+    <file 
+        file_in="roof.stl"
+        file_out="hex_roof.stl"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+    
+    <file 
+        file_in="cube.stl"
+        file_out="hex_cube.stl"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+    
+    <file 
+        file_in="ring.stl"
+        file_out="hex_ring.stl"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+    
+    <file 
+        file_in="roof.stl"
+        file_out="hex_roof.raw"
+        byte_order="row_major"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+    
+    <file 
+        file_in="cube.stl"
+        file_out="hex_cube.raw"
+        byte_order="row_major"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+    
+    <file 
+        file_in="ring.stl"
+        file_out="hex_ring.raw"
+        byte_order="row_major"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+</project>

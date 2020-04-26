@@ -1,0 +1,20 @@
+<project>
+    <grid 
+        max_voxels="256"
+        stl_cube_size="0.5"
+    >
+    </grid>
+    
+    <target
+        dir_out="Result"
+    >
+    </target>
+    
+    <file 
+        file_in="BERNINI_david.stl"
+        file_out="hex_david.stl"
+        material_interior="200"
+        material_shell="127"
+    >
+    </file>
+</project>
